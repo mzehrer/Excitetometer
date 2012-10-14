@@ -171,7 +171,7 @@ public class Main extends Activity {
                     decibel = 20.0 * Math.log10(p2 / 32768);
 
                     if (!Double.isNaN(decibel)) {
-                        Log.i(LOG_TAG, "Decibel: " + decibel);
+                        Log.i(LOG_TAG, "Decibel: " + decibel );
                         currentDecibels.add(decibel);
                     }
                 }
@@ -247,7 +247,7 @@ public class Main extends Activity {
         nameText.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20);
 
         TextView valueText = new TextView(this);
-        valueText.setText(twoDForm.format(entry.getFinalResult()) + " dB");
+        valueText.setText(twoDForm.format(entry.getFinalResult()) + " uNiT");
         valueText.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20);
 
         row.addView(nameText);
