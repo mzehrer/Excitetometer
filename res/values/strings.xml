@@ -4,7 +4,6 @@
     <string name="rec_result">No data, start a new recording!</string>
     <string name="rec_recording">Recording...</string>
     <string name="app_name">Excitetometer</string>
-    <string name="choose_format_title">Choose Audio Format</string>
     <string name="start_recording">New entry</string>
     <string name="stop_recording">Stop recording</string>
     <string name="newsession">New session</string>
