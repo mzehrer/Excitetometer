@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="20dip">
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:scaleType="fitCenter"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:gravity="center"
+            android:id="@+id/app_info"
+            android:text="@string/app_info"
+            android:layout_weight="1"
+            android:textSize="20dip"/>
+
+
+    <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/resultstable"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:textSize="20dip"
+            android:layout_weight="2"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:id="@+id/btnStop"
+            android:text="@string/stop_recording"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:gravity="center"
+            />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnStart"
+                android:text="@string/start_recording"
+                android:layout_weight="1.0"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/newsession"
+                android:text="@string/newsession"
+                android:layout_weight="1.0"/>
+
+
+    </LinearLayout>
+</LinearLayout>
